@@ -8,7 +8,9 @@
 
     <div class="container">
       <h1 class="title">Token Swap</h1>
-
+      <div v-if="errorMessage.length > 0" class="error-badge"> 
+        Error: {{ errorMessage }}
+      </div>
       <div class="form-container">
         <form @submit.prevent="createSwapOffer()">
           <div class="input-group">

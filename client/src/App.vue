@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <TokenSwap />
+    <MintPage />
   </div>
 </template>
 
 <script>
-import MintingPage from './components/MintingPage.vue'
+import MintPage from './components/MintPage.vue'
 
 export default {
   name: 'App',
   components: {
-    MintingPage
+    MintPage
   }
 }
 </script>
